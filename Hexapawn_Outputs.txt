@@ -1,0 +1,56 @@
+=====================================================================
+===========================HEXAPAWN==================================
+=====================================================================
+
+HEXAPAWN IS PLAYED WITH CHESS PAWNS ON A 3 BY 3 BOARD. THE PAWNS ARE
+MOVED AS IN CHESS - ONE SPACE FORWARD TO AN EMPTY SPACE OR ONE SPACE
+FORWARD AND DIAGONALLY TO CAPTURE AN OPPOSING MAN. ON THE BOARD, YOUR
+PAWNS ARE 'X', THE COMPUTER'S PAWNS ARE '0. TO ENTER A MOVE, TYPE THE
+LEGAL MOVE FROM THE OPTIONS PROVIDED BELOW AS A HINT. GOOD LUCK!
+
+=====================================================================
+
+    C1   C2   C3
+R1  x1 | x2 | x3
+R2     |    |
+R3  o1 | o2 | o3
+
+Your Turn - Agent
+===================
+0 Move x1 to Point(row=2, col=1)
+1 Move x2 to Point(row=2, col=2)
+2 Move x3 to Point(row=2, col=3)
+-- 2
+===================
+    C1   C2   C3
+R1  x1 | x2 |
+R2     |    | x3
+R3  o1 | o2 | o3
+
+AI's turn
+===================
+    C1   C2   C3
+R1  x1 | x2 |
+R2     |    | o2
+R3  o1 |    | o3
+
+Your Turn - Agent
+===================
+0 Move x1 to Point(row=2, col=1)
+1 Move x2 to Point(row=2, col=3)
+2 Move x2 to Point(row=2, col=2)
+-- 1
+===================
+    C1   C2   C3
+R1  x1 |    |
+R2     |    | x2
+R3  o1 |    | o3
+
+AI's turn
+===================
+    C1   C2   C3
+R1  x1 |    |
+R2  o1 |    | x2
+R3     |    | o3
+
+Winner: Player.o
